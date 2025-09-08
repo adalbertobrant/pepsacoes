@@ -4,6 +4,7 @@ import PortfolioSummary from './PortfolioSummary';
 import StockTable from './StockTable';
 import TransactionHistory from './TransactionHistory';
 import { PepsCalculator, Transaction } from '../utils/pepsCalculator';
+import { render } from 'react-dom';
 
 const AppLayout: React.FC = () => {
   const [transactions, setTransactions] = useState<Transaction[]>([]);
@@ -34,7 +35,8 @@ const AppLayout: React.FC = () => {
       const pepsResult = calculator.calculatePositions();
 
       // Etapa 2: Enviar o resultado para o backend para obter os preços atuais
-      const response = await fetch('http://localhost:8000/fetch-current-prices', {
+      const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:8000'; # para usar o render(website render.com)
+      const response = await fetch(`${apiUrl}/fetch-current-prices`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
