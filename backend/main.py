@@ -31,12 +31,13 @@ async def shutdown_event():
     logging.info("Backend server is shutting down.")
 
 # --- CORS Middleware ---
-origins = [
+origin = [ # renomeado para testes
     "http://localhost",
     "http://localhost:3000",
     "http://localhost:5173",
     "https://pepsacoes.vercel.app/", # adicione para o seu middleware de produção no meu caso é Vercel
 ]
+origins = ["*"] # apenas para teste para achar o erro
 
 app.add_middleware(
     CORSMiddleware,
