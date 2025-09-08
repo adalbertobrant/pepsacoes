@@ -27,8 +27,8 @@ O frontend é construído com **React (Vite) e TypeScript**, e o backend com **P
 ### 1. Clone o Repositório
 
 ```bash
-git clone https://github.com/seu-usuario/analiseAcoesMovimentacaoPrecoMedio.git
-cd analiseAcoesMovimentacaoPrecoMedio
+git clone https://github.com/adalbertobrant/pepsacoes.git
+cd pepsacoes
 ```
 
 ### 2. Configure o Backend (Servidor Python)
