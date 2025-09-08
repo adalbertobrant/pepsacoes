@@ -1,0 +1,81 @@
+# =============================================================================
+# Arquivos de Ambiente e Segredos 
+# =============================================================================
+.env
+.env.*
+!.env.example
+
+# =============================================================================
+# Dependências e Caches
+# =============================================================================
+# Node
+node_modules/
+.vite/
+.yarn/cache
+.yarn/plug-n-play
+.pnp.*
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+$py.class
+
+# =============================================================================
+# Artefatos de Build
+# =============================================================================
+# Frontend (Vite, Next.js, etc.)
+dist
+dist-ssr
+.output
+.next
+/out/
+
+# Python
+build/
+dist/
+*.egg-info/
+*.so
+
+# =============================================================================
+# Logs
+# =============================================================================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =============================================================================
+# Arquivos de IDE e Sistema Operacional
+# =============================================================================
+# VSCode
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# JetBrains (PyCharm, WebStorm)
+.idea
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# Outros
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# =============================================================================
+# Arquivos de Teste e Dados Temporários
+# =============================================================================
+
+teste.csv
+
+# Relatórios de Cobertura de Testes
+coverage/
+.nyc_output/

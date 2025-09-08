@@ -1,0 +1,121 @@
+Análise de Viabilidade: Projeto InvestLivre
+
+  1. Visão Geral Estratégica
+
+  A ideia de criar uma ferramenta de nicho para investidores é válida. O mercado de investidores pessoa
+  física no Brasil cresceu muito, e há uma demanda constante por ferramentas que simplifiquem a gestão
+  de portfólio.
+
+  No entanto, a viabilidade de um negócio não depende apenas da qualidade da ferramenta, mas da sua
+  capacidade de atrair usuários e gerar receita de forma sustentável.
+
+  Conclusão Curta:
+   * Viabilidade Técnica: Alta. Você já tem a base do código. Hospedar um frontend React e um backend
+     Python é um problema resolvido com muitas opções de baixo custo.
+   * Viabilidade de Negócio (Financeira): Muito Baixa com as premissas atuais. A combinação de monetização
+     via Google Ads com um orçamento de marketing de R$ 100,00 torna o projeto financeiramente inviável no
+     curto e médio prazo. É um caminho clássico para o fracasso de muitos projetos digitais.
+
+  Vamos detalhar os porquês.
+
+  2. Análise de Monetização e Custos
+
+   * Modelo de Receita (Google Ads):
+       * O Google AdSense paga por visualizações (CPM) e cliques (CPC). Para um nicho de finanças, o valor
+         por clique pode ser relativamente bom, mas a receita total depende de um volume de tráfego 
+         massivo.
+       * Para gerar uma receita mínima (ex: R$ 200/mês), você precisaria de dezenas de milhares de
+         visualizações de página de usuários engajados. Com uma ferramenta de nicho, atingir esse volume
+         rapidamente é irrealista.
+       * Dependência: Você fica à mercê das políticas do Google e de flutuações sazonais. Ad-blockers
+         também reduzem sua receita potencial.
+
+   * Alocação de Recursos (Custos):
+       1. Domínio (`investlivre.com.br`): ~R$ 40,00/ano. (Custo fixo baixo)
+       2. Hospedagem:
+           * Frontend (React/Vite): Pode ser hospedado de graça em plataformas como Vercel ou Netlify. Elas
+              se integram perfeitamente com o GitHub e oferecem um plano gratuito generoso que é ideal para
+              o início.
+           * Backend (Python/FastAPI): Plataformas como o Render.com oferecem um plano gratuito para
+             serviços web que pode ser suficiente para o início (ele "dorme" com inatividade, mas para
+             validar a ideia é perfeito). O Heroku era a opção padrão, mas seus planos gratuitos foram
+             descontinuados. Uma alternativa seria um micro-servidor VPS (DigitalOcean, Linode) por
+             ~$5/mês.
+       3. Marketing: R$ 100,00.
+
+  Balanço Financeiro Inicial: Seus custos fixos são baixíssimos (potencialmente apenas o domínio), mas
+  seu potencial de receita também é. O principal recurso a ser alocado não é dinheiro, mas seu tempo.
+
+  3. Estratégia de Divulgação (Onde o plano falha)
+
+  Com um orçamento de R$ 100,00, usar Google Ads ou qualquer outra plataforma de mídia paga (Facebook,
+  Instagram Ads) é o mesmo que queimar dinheiro.
+
+   * Por que Mídia Paga não funciona com R$ 100?
+       * O custo por clique (CPC) no nicho de finanças é alto.
+       * Seu orçamento seria consumido em 1 ou 2 dias, trazendo talvez 50-100 cliques.
+       * Desses cliques, uma pequena fração se tornará usuário recorrente. O resultado final seria
+         insignificante. Você não terá dados suficientes para otimizar campanhas e nenhum impacto real no
+         crescimento.
+
+  4. O Melhor Meio de Divulgação (Estratégia de Guerrilha)
+
+  Seu único caminho viável é o Marketing Orgânico (ou de Conteúdo), onde seu investimento é de tempo e
+  criatividade, não de dinheiro. O objetivo é construir autoridade e confiança, atraindo o público certo
+  de graça.
+
+  Plano de Ação de Marketing (Custo: R$ 0,00):
+
+   1. SEO (Search Engine Optimization):
+       * Crie um Blog: Anexe um blog ao seu site e escreva artigos que resolvem as dores do seu público.
+         Use sua ferramenta como a solução.
+       * Títulos de Exemplo: "Como Calcular o Preço Médio de Ações Corretamente (Planilha Grátis vs.
+         Ferramenta Automática)", "Imposto de Renda para Ações: Como não errar no cálculo do preço médio",
+         "5 erros comuns ao controlar seu portfólio de investimentos".
+       * O objetivo é que as pessoas encontrem você no Google quando tiverem a dúvida.
+
+   2. Comunidades Online:
+       * Participe, não anuncie. Entre em grupos de investidores no Facebook, fóruns (como o da
+         Baster.com) e principalmente no Reddit (r/investimentos).
+       * NÃO FAÇA SPAM. Responda dúvidas genuinamente. Quando alguém perguntar sobre como calcular preço
+         médio ou controlar a carteira, você pode dizer: "Eu tinha essa mesma dor e acabei criando uma
+         ferramenta simples pra resolver isso, se quiser testar o link é esse. O feedback seria ótimo!".
+         Isso gera muito mais confiança.
+
+   3. Conteúdo em Vídeo (YouTube/TikTok):
+       * Crie vídeos curtos mostrando a ferramenta em ação. Mostre um problema (ex: uma planilha de Excel
+         confusa) e como sua ferramenta resolve em 1 minuto. É visual e fácil de compartilhar.
+
+  Onde alocar os R$ 100,00?
+  Esqueça os anúncios. Guarde esse dinheiro para pagar 2 anos de domínio ou para eventualmente
+  impulsionar um post de blog de altíssima qualidade no Facebook/Instagram para um público
+  ultra-segmentado (ex: homens e mulheres, 25-45 anos, que seguem a Nathalia Arcuri e o Primo Rico).
+  Isso traria mais resultado do que um anúncio direto para a ferramenta.
+
+  Veredito Final e Plano Recomendado
+
+  O projeto como um "negócio para gerar renda" é inviável no momento. Porém, como um projeto para 
+  construir portfólio, aprender e validar uma ideia, é excelente.
+
+  Plano de Ação Estratégico:
+
+   1. Fase 1: Validação do Produto (MVP)
+       * Hospede o frontend na Vercel (grátis) e o backend no Render (grátis).
+       * Compre o domínio investlivre.com.br.
+       * Foco total na experiência do usuário: A ferramenta tem que ser impecável, rápida e, acima de tudo,
+          confiável. Adicione uma página "Sobre", "Política de Privacidade" e deixe claro como os dados do
+         usuário são tratados (são armazenados? São processados e descartados?). Confiança é tudo neste
+         nicho.
+
+   2. Fase 2: Crescimento Orgânico
+       * Inicie a estratégia de marketing de conteúdo (SEO, comunidades). Foque em conseguir seus
+         primeiros 100 usuários fiéis.
+       * Colete feedback obsessivamente. O que eles amam? O que falta?
+
+   3. Fase 3: Reavaliação da Monetização
+       * Depois de ter uma base de usuários e entender o valor que você gera, reavalie a monetização. Em
+         vez de Ads, talvez um modelo "Freemium" faça mais sentido:
+           * Grátis: Cálculo de preço médio para até 10 ativos.
+           * Premium (R$ 9,90/mês): Ativos ilimitados, importação de notas de corretagem, gráficos
+             avançados, etc.
+
