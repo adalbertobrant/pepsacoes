@@ -35,6 +35,7 @@ origins = [
     "http://localhost",
     "http://localhost:3000",
     "http://localhost:5173",
+    "https://pepsacoes.vercel.app/", # adicione para o seu middleware de produção no meu caso é Vercel
 ]
 
 app.add_middleware(
