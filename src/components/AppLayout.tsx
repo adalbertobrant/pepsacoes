@@ -35,7 +35,7 @@ const AppLayout: React.FC = () => {
       const pepsResult = calculator.calculatePositions();
 
       // Etapa 2: Enviar o resultado para o backend para obter os preços atuais
-      const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:8000'; # para usar o render(website render.com)
+      const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:8000'; // para usar o render(website render.com)
       const response = await fetch(`${apiUrl}/fetch-current-prices`, {
         method: 'POST',
         headers: {
